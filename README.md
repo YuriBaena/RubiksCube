@@ -38,14 +38,14 @@ Certifique-se de ter instalado em sua máquina:
 Siga os passos abaixo para rodar o projeto localmente:
 
 1. **Clone o repositório:**
-   ```bash
+```bash
    git clone https://github.com/YuriBaena/RubiksCube.git
 
 ```
 
 2. **Entre na pasta do projeto:**
 ```bash
-cd RubiksCub
+cd RubiksCube
 
 ```
 
@@ -86,4 +86,4 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issu
 
 ---
 
-Feito por [Yuri Baena].
+Feito por __Yuri Baena__.
