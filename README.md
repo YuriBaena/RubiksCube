@@ -1,59 +1,89 @@
-# RubiksCube
+# 🧩 Rubik's Cube in Angular & Three.js
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.5.
+Um projeto interativo de Cubo Mágico 3D desenvolvido com **Angular** e **Three.js**, permitindo visualizar, girar e interagir com o cubo diretamente no navegador.
 
-## Development server
+![Rubik's Cube](assets/rubiks.png)
 
-To start a local development server, run:
+---
 
+## ✨ Funcionalidades
+
+- **Renderização 3D Realista:** Cubo Mágico modelado e renderizado via WebGL com Three.js.
+- **Interatividade Completa:** Rotação livre da câmera (órbita) e rotação das camadas do cubo.
+- **Animações Suaves:** Transições fluidas para os movimentos das faces.
+- **Arquitetura Modular:** Organizado em componentes e serviços reutilizáveis do Angular.
+- *(Opcional)* **Embaralhamento e Resolução:** Botão para embaralhar o cubo automaticamente.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- [Angular](https://angular.io/) - Framework principal para a estrutura da aplicação.
+- [Three.js](https://threejs.org/) - Biblioteca JavaScript para gráficos 3D baseada em WebGL.
+- [TypeScript](https://www.typescriptlang.org/) - Superset JavaScript tipado.
+- HTML5 / SCSS - Estilização e layout da interface.
+
+---
+
+## 📦 Pré-requisitos
+
+Certifique-se de ter instalado em sua máquina:
+- [Node.js](https://nodejs.org/) (versão 18+ recomendada)
+- Angular CLI (`npm install -g @angular/cli`)
+
+---
+
+## ⚙️ Instalação e Execução
+
+Siga os passos abaixo para rodar o projeto localmente:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/YuriBaena/RubiksCube.git
+
+```
+
+2. **Entre na pasta do projeto:**
+```bash
+cd RubiksCub
+
+```
+
+
+3. **Instale as dependências:**
+```bash
+npm install
+
+```
+
+
+4. **Execute o servidor de desenvolvimento:**
 ```bash
 ng serve
+
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🎯 Próximos Passos / Melhorias Futuras
 
-```bash
-ng generate component component-name
-```
+* [ ] Implementar um algoritmo de resolução automática (como o Algoritmo de Kociemba).
+* [ ] Adicionar sistema de pontuação e cronômetro (Speedcubing).
+* [ ] Adicionar sons realistas de giro das peças.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 🤝 Contribuindo
 
-## Building
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
 
-To build the project run:
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/NovaFeature`)
+3. Faça o Commit das alterações (`git commit -m 'Adicionando nova feature'`)
+4. Faça o Push para a Branch (`git push origin feature/NovaFeature`)
+5. Abra um Pull Request
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feito por [Yuri Baena].

@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { CubeComponent } from './cube/cube';
+import { CubeComponent } from './view/cube/cube';
 
 @Component({
   imports: [CubeComponent],
