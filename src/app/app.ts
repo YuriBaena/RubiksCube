@@ -1,12 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CubeComponent } from './cube/cube';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [CubeComponent],
   selector: 'app-root',
   styleUrl: './app.scss',
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('RubiksCube');
 }
