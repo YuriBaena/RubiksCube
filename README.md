@@ -45,21 +45,14 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 2. **Entre na pasta do projeto:**
 ```bash
-cd RubiksCube
+   cd RubiksCube
 
 ```
 
 
-3. **Instale as dependências:**
+3. **Rodar o container no Docker:**
 ```bash
-npm install
-
-```
-
-
-4. **Execute o servidor de desenvolvimento:**
-```bash
-ng serve
+   docker compose up -d --build
 
 ```
 
